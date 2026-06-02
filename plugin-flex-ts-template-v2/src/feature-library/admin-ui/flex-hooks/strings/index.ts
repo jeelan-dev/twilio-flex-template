@@ -30,7 +30,7 @@ export enum StringTemplates {
 
 export const stringHook = () => ({
   'en-US': {
-    [StringTemplates.ADMIN_TITLE]: 'Feature Settings - Test',
+    [StringTemplates.ADMIN_TITLE]: 'Feature Settings-Test',
     [StringTemplates.CONFIG_FOR_TITLE]: 'Configure for:',
     [StringTemplates.CONFIG_FOR_MYSELF]: 'Myself',
     [StringTemplates.CONFIG_FOR_EVERYONE]: 'Everyone',
