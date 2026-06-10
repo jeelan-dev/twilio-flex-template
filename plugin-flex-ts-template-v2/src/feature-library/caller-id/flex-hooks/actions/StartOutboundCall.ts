@@ -314,6 +314,7 @@ export const actionHook = function applySelectedCallerIdForDialedNumbers(flex: t
       console.log(`TURKEY fallback to TR: ${payload.callerId}, ${payload.queueSid}`);
       return;
     } else if (workerLocationImpress) {
+      console.log('ENTERED IMPRESS BLOCK');
       const callerIdImpressCountry = getCallerIdImpressCountry();
       let callerIdImpressData = null;
 
@@ -321,6 +322,7 @@ export const actionHook = function applySelectedCallerIdForDialedNumbers(flex: t
         callerIdImpressData = callerIdImpressCountry['ImpressSupport'];
       }
 
+      console.log('callerIdImpressData', callerIdImpressData);
       if (callerIdImpressData && destinationCountryCode && callerIdImpressData[destinationCountryCode]) {
         payload.callerId = callerIdImpressData[destinationCountryCode].phoneNumber;
         payload.queueSid = callerIdImpressData[destinationCountryCode].queueSid;
