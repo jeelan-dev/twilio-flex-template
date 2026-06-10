@@ -144,6 +144,7 @@ var appConfig = {
           'FRANCE-iTero-Training',
           'FRANCE-iTero-Onboarding',
         ],
+        IMPRESS: ['Impress Support']
       },
       queuesList: {
         FRANCE: [
@@ -254,7 +255,7 @@ var appConfig = {
           'DACH-iTero-TechSupport',
           'DACH-iTero-Onboarding',
           'DACH-Clinical Commercial',
-          'Poland-HUB-German-Invisalign'
+          'Poland-HUB-German-Invisalign',
         ],
         PLBIZ: ['PL-iTero-BizOps-UK'],
         DACH: [
@@ -348,6 +349,7 @@ var appConfig = {
           'TURKEY-iTero-Training-Outbound',
           'TURKEY-iTero-TechSupport-Outbound',
         ],
+        IMPRESS: ['Impress Support']
       },
       callerIddata: {
         ZA: {
@@ -1592,7 +1594,6 @@ var appConfig = {
           },
         },
       },
-
       callerIdTurkeyCountry: {
         TurkeyCustomerSupport: {
           TR: {
@@ -1624,6 +1625,16 @@ var appConfig = {
             queueName: 'TURKEY-iTeroTraining-Outbound',
             queueSid: 'WQd1d0c2b36e8f93fd2407f17ec6073f7f',
             country_code: 'TR',
+          },
+        },
+      },
+      callerIdImpressCountry: {
+        ImpressSupport: {
+          PL: {
+            phoneNumber: '+48732070655',
+            queueName: 'Impress Support',
+            queueSid: 'WQ5f590abedb2f844e28b3c0d481039d1e',
+            country_code: 'PL',
           },
         },
       },

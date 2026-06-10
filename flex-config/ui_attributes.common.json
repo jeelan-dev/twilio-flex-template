@@ -137,7 +137,8 @@
           "TURKEY-Tech Support",
           "TURKEY-Clinical Commercial",
           "TURKEY-iTero Training"
-        ]
+        ],
+        "IMPRESS": ["Impress Support"]
       },
       "queuesList": {
         "IB": [
@@ -351,7 +352,9 @@
           "TURKEY-ClinicalCommercial-Outbound",
           "TURKEY-iTero-Training-Outbound",
           "TURKEY-iTero-TechSupport-Outbound"
-        ]
+        ],
+
+        "IMPRESS": ["Impress Support"]
       },
       "callerIddata": {
         "ZA": {
@@ -1607,7 +1610,6 @@
           }
         }
       },
-
       "callerIdTurkeyCountry": {
         "TurkeyCustomerSupport": {
           "TR": {
@@ -1639,6 +1641,16 @@
             "queueName": "TURKEY-iTeroTraining-Outbound",
             "queueSid": "WQd1d0c2b36e8f93fd2407f17ec6073f7f",
             "country_code": "TR"
+          }
+        }
+      },
+      "callerIdImpressCountry": {
+        "ImpressSupport": {
+          "PL": {
+            "phoneNumber": "+48732070655",
+            "queueName": "Impress Support",
+            "queueSid": "WQ5f590abedb2f844e28b3c0d481039d1e",
+            "country_code": "PL"
           }
         }
       }
